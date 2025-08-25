@@ -9,19 +9,28 @@ A simple e-commerce web app built with React + Vite and deployed using GitHub Pa
 ## 🚀 Features
 
 -Product listing page with images, titles, and price
+
 -Search and filter functionality
+
 -Add to Cart & Remove from Cart
+
 -Cart page with total price calculation
+
 -Mock checkout flow
+
 -Clean and responsive UI
+
 
 ---
 
 ## 🛠️ Tech Stack
 
 React – UI library
+
 Vite – Fast build tool
+
 CSS – Styling
+
 JavaScript (ES6+)
 
 ##1. Clone the repository
