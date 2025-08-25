@@ -1,57 +1,47 @@
-E-COMMERCE PROJECT
+# 🛒 E-commerce Project
 
 🚀 View Live Demo
 
-A simple E-commerce web application built with React + Vite that allows users to browse products, add items to cart, and simulate a checkout flow.
+A simple e-commerce web app built with React + Vite and deployed using GitHub Pages.
 
-🚀 Features
+---
 
-🛍️ Product listing page with images, titles, and prices
+## 🚀 Features
 
-🔎 Search and filter functionality
+-Product listing page with images, titles, and price
+-Search and filter functionality
+-Add to Cart & Remove from Cart
+-Cart page with total price calculation
+-Mock checkout flow
+-Clean and responsive UI
 
-🛒 Add to Cart & Remove from Cart
+---
 
-🧾 Cart page with total price calculation
-
-💳 Mock checkout flow
-
-📱 Responsive design
-
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 React – UI library
-
 Vite – Fast build tool
-
 CSS – Styling
-
 JavaScript (ES6+)
 
-GitHub Pages – Deployment
-
-⚙️ Setup
-
-Clone the repository
-
+##1. Clone the repository
+```bash
 git clone https://github.com/sidd2006/ecommerce-project.git
 cd ecommerce-project
 
-
-Install dependencies
-
+Install Dependencies
 npm install
 
-
 Run the development server
-
 npm run dev
 
-
 Build for production
-
 npm run build
 
-📄 License
+LICENSE
+
+This project is open-source and available under the MIT license
+
+License
 
 This project is open-source and available under the MIT License.
