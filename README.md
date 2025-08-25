@@ -33,7 +33,9 @@ CSS – Styling
 
 JavaScript (ES6+)
 
-##1. Clone the repository
+---
+
+###1. Clone the repository
 ```bash
 git clone https://github.com/sidd2006/ecommerce-project.git
 cd ecommerce-project
