@@ -1,7 +1,8 @@
+![Work in Progress](https://img.shields.io/badge/status-work%20in%20progress-orange)
 
 # 🛒 E-commerce Project
 
-🚀 View Live Demo
+🚀 View Live Demo - https://sidd2006.github.io/ecommerce-project/
 
 A simple e-commerce web app built with React + Vite and deployed using GitHub Pages.
 
