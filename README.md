@@ -1,60 +1,56 @@
-![Work in Progress](https://img.shields.io/badge/status-work%20in%20progress-orange)
+# React Storefront Prototype
 
-# 🛒 E-commerce Project
+A storefront and checkout UI built with React and Vite. The project translates a shopping-page layout into React pages, with product imagery, ratings, quantity controls, and an order-summary view.
 
-🚀 View Live Demo - https://sidd2006.github.io/ecommerce-project/
+**Stack:** React 19 · React Router · JavaScript · Vite · CSS
 
-A simple e-commerce web app built with React + Vite and deployed using GitHub Pages.
+[Published demo](https://sidd2006.github.io/ecommerce-project/) · [Application source](ecommerce-project/src)
 
----
+## Current scope
 
-## 🚀 Features
+- Product-card layouts with images, prices, and ratings.
+- Shopping-header and search-field presentation.
+- A checkout page with delivery-option and payment-summary layouts.
+- Route declarations for the home page and `/checkout`.
 
--Product listing page with images, titles, and price
+The current pages use static product and order content. Search, cart mutations, persistence, and payment processing are not implemented as application behavior. Some navigation links still use the starter HTML paths.
 
--Search and filter functionality
+## Run locally
 
--Add to Cart & Remove from Cart
+The Vite app lives in a nested directory:
 
--Cart page with total price calculation
-
--Mock checkout flow
-
--Clean and responsive UI
-
-
----
-
-## 🛠️ Tech Stack
-
-React – UI library
-
-Vite – Fast build tool
-
-CSS – Styling
-
-JavaScript (ES6+)
-
----
-
-### 1. Clone the repository
 ```bash
 git clone https://github.com/sidd2006/ecommerce-project.git
-cd ecommerce-project
-
-Install Dependencies
-npm install
-
-Run the development server
+cd ecommerce-project/ecommerce-project
+npm ci
 npm run dev
+```
 
-Build for production
-npm run build
+Open the URL printed by Vite.
 
-LICENSE
+## Development commands
 
-This project is open-source and available under the MIT license
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Start the development server |
+| `npm run build` | Build the production assets |
+| `npm run preview` | Preview the built application |
+| `npm run lint` | Run ESLint |
 
-License
+## Repository guide
 
-This project is open-source and available under the MIT License.
+| Path | Purpose |
+| --- | --- |
+| [App.jsx](ecommerce-project/src/App.jsx) | Route declarations |
+| [HomePage.jsx](ecommerce-project/src/Pages/HomePage.jsx) | Product listing layout |
+| [CheckoutPage.jsx](ecommerce-project/src/Pages/CheckoutPage.jsx) | Checkout and order-summary layout |
+| [public/images](ecommerce-project/public/images) | Product and interface assets |
+| [starting-code](ecommerce-project/starting-code) | Retained starter HTML, CSS, and sample data |
+
+## Project context
+
+A frontend learning prototype built around starter storefront content. The repository retains the starter assets and files so their relationship to the React implementation is visible.
+
+## License
+
+See [LICENSE](LICENSE).
